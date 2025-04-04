@@ -146,6 +146,29 @@ section {
     color: #ff7f50;
     text-decoration: underline;
 }
+.btn {
+    display: inline-block; /* Makes the button behave like an inline element */
+    padding: 10px 20px; /* Adds spacing inside the button */
+    color: white; /* White text color */
+    background-color: #0077b6; /* Blue background */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 5px; /* Rounds the corners */
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    text-align: center; /* Centers text inside the button */
+    margin: 20px auto; /* Centers the button horizontally and adds vertical spacing */
+}
+
+.btn:hover {
+    background-color: #005582; /* Changes to a darker blue on hover */
+}
+
+/* Centering the Button */
+section {
+    text-align: center; /* Ensures the content inside the section is centered */
+}
+
+
 /* Interests Section */
 #interests {
     background-color: #f8f9fa;
@@ -370,7 +393,7 @@ footer h3 {
 }
 .footer-text {
     margin-bottom: 2rem;
-    color: rgba(26, 2, 29, 0.8);
+    color: rgba(29, 2, 20, 0.8);
 }
 
 /* Responsive Design */
