@@ -368,6 +368,10 @@ footer h3 {
     color: #0077b6;
     margin-bottom: 15px;
 }
+.footer-text {
+    margin-bottom: 2rem;
+    color: rgba(26, 2, 29, 0.8);
+}
 
 /* Responsive Design */
 @media (max-width: 600px) {
