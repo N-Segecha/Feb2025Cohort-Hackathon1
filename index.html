@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Nelly Maritim</h1>
+        <img src="Nelly_photo.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nelly Maritim" class="profile-photo">
+        <p>Electrical Engineer & Software Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I’m an Electrical Engineer with experience in power systems, currently expanding my skills in software development and machine learning. I enjoy building projects that combine hardware and software solutions. My goal is to create efficient, innovative systems that solve real-world problems in the energy sector.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Engineering Skills</h3>
+                <ul>
+                    <li>Circuit Design</li>
+                    <li>Power Electronics</li>
+                    <li>PCB Layout</li>
+                    <li>Embedded Systems</li>
+                    <li>IEC 60601</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>BSc in Electrical & Electronics Engineering</h3>
+            <p><strong>University of Nairobi</strong> | 2019 - 2024</p>
+            <p>
+                Embarking on this educational journey has been nothing short of transformative. I’ve immersed myself in the fascinating world of power systems and embedded programming. 
+                For my senior project, I designed a cutting-edge **medical power supply** that complies with **IEC 60601 safety standards**, paving the way for safer medical technologies.
+            </p>
+        </div>
+        <div class="education-item">
+            <h3>Software Engineering Certificate</h3>
+            <p><strong>Online Program</strong> | 2023 - Present</p>
+            <p>
+                Passionate about merging hardware expertise with software, I am diving deep into **full-stack web development**—from mastering **HTML, CSS, and JavaScript** to exploring 
+                the potential of **machine learning**. Every lesson fuels my ambition to craft innovative solutions that bridge engineering and software.
+            </p>
+        </div>
+        <p><a href="Nelly's_CV.pdf" download class="btn">Download My CV</a></p>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            <h3>Medical Power Supply</h3>
+            <p>
+                <strong>Project Overview:</strong> I engineered a <strong>24W isolated power supply</strong> for medical devices, adhering to the <strong>IEC 60601 safety standards</strong>. This ensures not only reliable operation but also patient safety in critical healthcare environments.
+            </p>
+            <p><strong>Technologies:</strong> Altium Designer, Circuit Simulation, Safety Testing</p>
+            <a href="#">View Project Details</a>
+        </div>
+        
+        <div class="project">
+            <h3>Energy Monitoring Dashboard</h3>
+            <p>
+                <strong>Project Overview:</strong> Built a <strong>dynamic web application</strong> to visualize <strong>power consumption data</strong> for industrial machinery. This dashboard provides actionable insights to optimize energy efficiency and reduce costs.
+            </p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, REST APIs</p>
+            <a href="#">View Live Project</a>
+        </div>
+        
+        <div class="project">
+            <h3>Equipment Temperature Predictor</h3>
+            <p>
+                <strong>Project Overview:</strong> Leveraging machine learning, I developed a predictive model to forecast overheating in power electronics. This proactive approach enhances equipment performance and reduces downtime.
+            </p>
+            <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas</p>
+            <a href="#">View Code on GitHub</a>
+        </div>
+    </section>    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for inquiries or collaborations through the form below!</p>
+    
+        <!-- Contact Form -->
+        <form id="contactForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+    
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+    
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    
+        <!-- Let's Connect Section -->
+        <h3>Let's Connect</h3>
+        <div class="contact-methods">
+            <div class="contact-card whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span><a href="https://wa.me/254726856366" target="_blank">WhatsApp: +254 726 856366</a></span>
+            </div>
+            <div class="contact-card x">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2">
+                    <path d="M23.59 0H0.41C0.183 0 0 0.183 0 0.41v23.18c0 .227.183.41.41.41h23.18c.227 0 .41-.183.41-.41V0.41c0-.227-.183-.41-.41-.41zM18.4 14.625l-.875.875c-.4.4-.875.6-1.425.6h-.1l-1.55-1.45-2.9 2.95c-.4.375-.85.55-1.375.55-.55 0-1-.175-1.375-.55l-2.875-2.925c-.4-.4-.6-.875-.6-1.425v-.1L8.2 12.05 6.65 10.5c-.375-.375-.55-.825-.55-1.375 0-.5.175-.95.55-1.35l.85-.9c.4-.4.875-.575 1.425-.575h.1L10.85 10l2.875-2.925c.375-.4.825-.575 1.375-.575.5 0 .95.175 1.375.575l2.925 2.875c.375.4.55.85.55 1.375 0 .55-.175 1.025-.55 1.4l-2.95 2.9 1.45 1.55c.4.375.575.825.575 1.375 0 .55-.175 1.025-.575 1.4z"/>
+                </svg>
+                <span><a href="https://x.com/NSegecha" target="_blank">X: @NSegecha</a></span>
+            </div>
+            
+            <div class="contact-card phone">
+                <i class="fas fa-phone"></i>
+                <span><a href="tel:+254726856366">Phone: +254 726 856366</a></span>  
+            </div>          
+            <div class="contact-card linkedin">
+                <i class="fab fa-linkedin"></i>
+                <span><a href="https://linkedin.com/in/Nelly-Maritim" target="_blank">LinkedIn: linkedin.com/in/Nelly-Maritim</a></span>
+            </div>
+            <div class="contact-card github">
+                <i class="fab fa-github"></i>
+                <span><a href="https://github.com/N-Segecha" target="_blank">GitHub: github.com/N-Segecha</a></span>
+            </div>
+            <div class="contact-card email">
+                <i class="fas fa-envelope"></i>
+                <span><a href="mailto:nsegecha@gmail.com" target="_blank">Email: nsegecha@gmail.com</a></span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <h3>Find Me Online:</h3>
+        <div class="contact-container">
+            <a href="https://wa.me/254726856366" class="contact-icon whatsapp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://x.com/NSegecha" class="contact-icon x" title="X">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                    <path d="M23.59 0H0.41C0.183 0 0 0.183 0 0.41v23.18c0 .227.183.41.41.41h23.18c.227 0 .41-.183.41-.41V0.41c0-.227-.183-.41-.41-.41zM18.4 14.625l-.875.875c-.4.4-.875.6-1.425.6h-.1l-1.55-1.45-2.9 2.95c-.4.375-.85.55-1.375.55-.55 0-1-.175-1.375-.55l-2.875-2.925c-.4-.4-.6-.875-.6-1.425v-.1L8.2 12.05 6.65 10.5c-.375-.375-.55-.825-.55-1.375 0-.5.175-.95.55-1.35l.85-.9c.4-.4.875-.575 1.425-.575h.1L10.85 10l2.875-2.925c.375-.4.825-.575 1.375-.575.5 0 .95.175 1.375.575l2.925 2.875c.375.4.55.85.55 1.375 0 .55-.175 1.025-.55 1.4l-2.95 2.9 1.45 1.55c.4.375.575.825.575 1.375 0 .55-.175 1.025-.575 1.4z"/>
+                </svg>
+            </a>
+            
+            <a href="tel:+254726856366" class="contact-icon phone" title="Phone">
+                <i class="fas fa-phone"></i>
+            </a>            
+            
+            <a href="https://linkedin.com/in/Nelly-Maritim" class="contact-icon linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:nsegecha@gmail.com" class="contact-icon email" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/N-Segecha" class="contact-icon github" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Nelly Maritim. All Rights Reserved.</p>
+    </footer>
+    
+    
+</body>
+</html>
