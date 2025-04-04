@@ -146,6 +146,47 @@ section {
     color: #ff7f50;
     text-decoration: underline;
 }
+/* Interests Section */
+#interests {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#interests h2 {
+    color: #0077b6;
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.interests-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.interest {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.interest h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.interest p {
+    font-size: 1rem;
+    color: #333;
+}
 
 /* Contact Form */
 form div {
