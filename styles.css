@@ -268,12 +268,14 @@ button:hover {
     color: #25D366;
 }
 
-.contact-card.x svg,
-.contact-icon.x svg {
-    width: 40px;
-    height: 40px;
-    fill: #1DA1F2; /* Default brand color for X */
-    transition: transform 0.3s ease, fill 0.3s ease;
+/* X Icon Specific Styling */
+.contact-card.x svg {
+    fill: #1DA1F2; /* X's blue branding color */
+    transition: transform 0.3s ease;
+}
+.contact-card.x svg:hover {
+    transform: scale(1.2); /* Hover animation for the X icon */
+    fill: #0D95E8; /* Slightly darker blue */
 }
 .contact-card.phone {
     color: #0077b6;
